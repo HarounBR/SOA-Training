@@ -9,7 +9,7 @@ public class Module {
     private UniteEnseignement uniteEnseignement; // Référence vers l'UE associée
     public Module(){}
     // Constructeur
-    public Module(String matricule, String nom, int coefficient, int volumeHoraire, TypeModule type) {
+    public Module(String matricule, String nom, int coefficient, int volumeHoraire, TypeModule type, boolean ueByCode) {
         this.matricule = matricule;
         this.nom = nom;
         this.coefficient = coefficient;
